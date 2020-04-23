@@ -7,6 +7,14 @@ h1{
     padding-top: 20px;
 }
 
+.portfoliolinks{
+    font-size: 25px;
+    color: darkmagenta;
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 640px){
  
     .portfolioCard{
@@ -40,4 +48,10 @@ h1{
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+
+
+.container-grid{
+    display: inline-grid;
 }
