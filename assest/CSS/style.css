@@ -50,8 +50,18 @@ h1{
     width: 100%;
 }
 
-
-
-.container-grid{
-    display: inline-grid;
-}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "photography group1 group2 personal" "photography group1 group2 personal" "photography group1 group2 personal";
+  }
+  
+  .photography { grid-area: photography; }
+  
+  .group1 { grid-area: group1; }
+  
+  .group2 { grid-area: group2; }
+  
+  .personal { grid-area: personal; }
